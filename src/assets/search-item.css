@@ -1,0 +1,19 @@
+.searchItemDiv {
+    text-align: center;
+    padding:10px;
+    margin:10px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
+    background: linear-gradient(#1095c1 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: .4s, background-position 0s;
+}
+.searchItemDiv:hover{
+    --p: 100%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.searchItemDiv img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}

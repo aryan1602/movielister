@@ -1,0 +1,67 @@
+.form{
+  height: 35%;
+  border: 5px solid;
+
+ 
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  display: flex;
+  padding: 45px;
+  margin:auto;
+  margin-top:20vh;
+  margin-bottom:20vh;
+  width: fit-content;
+  color: white;
+
+}
+
+.inputcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+  
+.inputcontainer input{
+    color:white;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 2.5vh;
+    border: solid white;
+}
+
+.inputcontainer input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+    
+  
+.book{
+    margin: 10px;
+    height: 5vh;
+    background-color: transparent;
+    border: solid white;
+    border-radius: 30px;
+    width: 50%;
+    color:white;
+    text-align: center;
+   
+}
+  
+.cancel {
+    margin: 10px;
+    height: 5vh;
+    background-color: transparent;
+   
+    border-radius: 30px;
+    width: 50%;
+  
+    text-align: center;
+    color:red;
+    border: solid red;
+}
